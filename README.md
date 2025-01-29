@@ -5,6 +5,7 @@
 3. Uzupełnij dane logowanie do bazy danych w pliku `src/config/db.js`. Jeśli to potrzebne, stwórz własną bazę danych za pomocą plików `.sql` z katalogu `postgres/public`.
 4. Uruchom serwer komendą `node src/server.js`. Serwer uruchomiony zostanie na porcie 3000.
 5. Wyświetl stronę pod adresem `localhost:3000/`.
+6. (opcjonalne) Jeśli chcesz, wygeneruj dokumentację `jsdoc` przy pomocy komendy `jsdoc -c jsdoc.json`. Aby otworzyć dokumentację należy otworzyć w przeglądarce stworzony przez komendę plik: `docs/jsdoc/index.html`.
 
 ## Baza danych
 ### Diagram ERD
