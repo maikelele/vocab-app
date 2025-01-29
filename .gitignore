@@ -1,0 +1,7 @@
+.idea/
+docs/
+node_modules/
+vocab_app.iml
+package-lock.json
+.vscode/
+.env
