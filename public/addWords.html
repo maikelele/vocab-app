@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Słówek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Dodaj słówka</h1>
+    <nav>
+        <a href="/">Powrót do strony głównej</a>
+        <a href="wordsList.html" id="wordsList">Lista słówek</a>
+        <a href="wordsQuiz.html" id="wordsQuiz">Quiz</a>
+    </nav>
+</header>
+<main>
+    <!-- Language Selection -->
+    <section id="language-selection">
+        <h2>Wybierz Język</h2>
+        <select id="languageSelect">
+            <option value="en">Angielski</option>
+            <option value="de">Niemiecki</option>
+            <option value="fr">Francuski</option>
+            <option value="es">Hiszpański</option>
+        </select>
+    </section>
+
+    <!-- Add Words Form -->
+    <section id="add-words">
+        <h2>Dodaj Słówko</h2>
+        <div style="text-align: center;">
+            <input type="file" id="csvFileInput" accept=".csv" />
+            <button id="importCsvButton">Importuj z CSV</button>
+        </div>
+        <form id="addWordForm">
+            <label for="word">Słówko:</label>
+            <input type="text" id="word" name="word" placeholder="Wprowadź słówko" required>
+
+            <label for="translation">Tłumaczenie:</label>
+            <input type="text" id="translation" name="translation" placeholder="Wprowadź tłumaczenie" required>
+
+            <button type="submit">Dodaj</button>
+        </form>
+    </section>
+
+</main>
+<script src="addWords.js"></script>
+</body>
+</html>
