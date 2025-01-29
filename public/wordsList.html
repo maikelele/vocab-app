@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Słówek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Lista Wszystkich Słówek</h1>
+    <nav>
+        <a href="/">Powrót do strony głównej</a>
+        <a href="addWords.html" id="addWords">Dodaj słówka</a>
+        <a href="wordsQuiz.html" id="wordsQuiz">Quiz</a>
+    </nav>
+</header>
+<main>
+    <!-- Language Selection -->
+    <section id="language-selection">
+        <h2>Wybierz Język</h2>
+        <label for="languageSelect"></label>
+        <select id="languageSelect">
+            <option value="en">Angielski</option>
+            <option value="de">Niemiecki</option>
+            <option value="fr">Francuski</option>
+            <option value="es">Hiszpański</option>
+        </select>
+    </section>
+
+    <!-- Words Section -->
+    <div id="sections-container">
+        <section id="words-section">
+            <h2>Słówka</h2>
+            <ol id="words-list">
+                <!-- Words and translations will be dynamically added here -->
+            </ol>
+        </section>
+
+        <section id="proficiency-section">
+            <h2>Stopień opanowania</h2>
+            <ol id="proficiency-list">
+                <!-- Words and translations will be dynamically added here -->
+            </ol>
+        </section>
+
+        <section id="last-memorized-section">
+            <h2>Ostatnio powtórzono:</h2>
+            <ol id="last-memorized-list">
+                <!-- Words and translations will be dynamically added here -->
+            </ol>
+        </section>
+    </div>
+</main>
+<script src="wordsList.js"></script>
+</body>
+</html>
