@@ -191,127 +191,57 @@ Moduł konfiguruje trasy dla aplikacji.
 
 Rejestruje nowego użytkownika.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### POST `/login`
 
 Loguje użytkownika.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 #### POST `/logout`
 
 Wylogowuje użytkownika, usuwając jego sesję.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### POST `/add-word`
 
 Dodaje nowe słowo do słownika użytkownika.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 #### POST `/vocabulary-list`
 
 Pobiera listę słówek użytkownika dla wybranego języka.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### POST `/count-reviews`
 
 Liczy liczbę przeglądów słówek użytkownika w danym dniu i języku.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 #### POST `/get-weakest-word`
 
 Pobiera najsłabsze słowo dla użytkownika na podstawie jego postępów w nauce.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### POST `/update-weakest-word`
 
 Aktualizuje informacje o przeglądzie najsłabszego słowa użytkownika.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 #### POST `/delete-word`
 
 Usuwa słowo ze słownika użytkownika.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### POST `/delete-account`
 
 Usuwa użytkownika z bazy danych.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 #### GET `/summary-registrations`
 
 Pobiera podsumowanie rejestracji użytkowników.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### GET `/summary-logins`
 
 Pobiera podsumowanie logowań użytkowników.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 #### GET `/summary-revisions`
 
 Pobiera podsumowanie przeglądów słówek użytkowników.
 
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
-
 #### GET `/user-count`
 
 Pobiera liczbę zarejestrowanych użytkowników.
-
-**Parametry:**
-
-- `req` (Object): Obiekt żądania HTTP.
-- `res` (Object): Obiekt odpowiedzi HTTP.
 
 ## `src/server.js`
 
