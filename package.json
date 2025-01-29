@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jspdf": "^2.5.2",
+    "path": "^0.12.7",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4",
+    "nodemon": "^3.1.9",
+    "typedoc": "^0.27.6"
+  }
+}
