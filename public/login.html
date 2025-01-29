@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logowanie - EduSim">
+    <title>Zaloguj się - EduSim</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+<!-- Nagłówek strony -->
+<header>
+    <h1>Trening słówek</h1>
+    <nav>
+        <a href="index.html">Powrót na stronę główną</a>
+    </nav>
+</header>
+
+<!-- Sekcja główna -->
+<main>
+    <section id="login">
+        <article>
+            <h2>Logowanie</h2>
+            <div id="error" style="color: red; display: none;"></div>
+            <form action="/login" method="post">
+                <label for="email">Adres email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Zaloguj się</button>
+            </form>
+            <p>Nie masz jeszcze konta? <a href="register.html">Zarejestruj się tutaj</a>.</p>
+        </article>
+    </section>
+</main>
+
+<script src="/login.js"></script>
+</body>
+
+</html>
