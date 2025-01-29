@@ -2,8 +2,9 @@
 ## Uruchomienie
 1. Sklonuj repozytorium komendą `git clone https://github.com/maikelele/vocab-app`
 2. Wewnątrz katalogu `vocab-app` uruchom komendę `npm i`, pobierze to wszystkie potrzebne zależności.
-3. Uruchom serwer komendą `node src/server.js`. Serwer uruchomiony zostanie na porcie 3000.
-4. Wyświetl stronę pod adresem `localhost:3000/`.
+3. Uzupełnij dane logowanie do bazy danych w pliku `src/config/db`. Jeśli to potrzebne, stwórz własną bazę danych za pomocą plików `.sql` z katalogu `postgres/public`.
+4. Uruchom serwer komendą `node src/server.js`. Serwer uruchomiony zostanie na porcie 3000.
+5. Wyświetl stronę pod adresem `localhost:3000/`.
 ## Baza danych
 ### Diagram ERD
 <img src="docs/images/erd_new.png" alt="Diagram ERD" width="400" height="400">
