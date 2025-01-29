@@ -1,6 +1,6 @@
 .idea/
-node_modules/
-vocab_app.iml
-package-lock.json
 .vscode/
+node_modules/
 .env
+package-lock.json
+vocab_app.iml
