@@ -4,3 +4,4 @@ node_modules/
 .env
 package-lock.json
 vocab_app.iml
+docs/jsdoc/
